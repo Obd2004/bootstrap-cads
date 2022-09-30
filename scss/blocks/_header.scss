@@ -1,0 +1,44 @@
+nav{
+    position: relative;
+    .asosiy{
+        position: absolute;
+        left: 200px;
+        top: 95px;
+        border-bottom: 3px solid blue;
+        width: 865px;
+        padding-bottom: 15px;
+    }
+    display: flex;
+    .icon{
+        width: 80px;
+        height: 80px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    h3{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .items{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+            color: rgba(25, 24, 24, 0.951);
+        }
+        .curs{
+            color: blue;
+        }
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 70px;
+        margin-top: 200px;
+        .card{
+            img{
+                height: 180px;
+            }
+        }
+    }
+}
